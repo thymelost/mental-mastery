@@ -79,7 +79,7 @@ The full skill list is in `skill-taxonomy.md`. You don't need to read it before 
 
 **Time:** The training requires 50–75 minutes per day for the first six phases (roughly 9–18 months of work). This is not optional — the practices are the mechanism by which skills develop. There is no accelerated version.
 
-**Equipment:** A journal (physical or digital), a timer, and the ability to measure your own pulse (a fitness band helps but is not required — a finger on the wrist works).
+**Equipment:** A journal and a timer. The app includes both: a built-in voice and text journal and a session timer for every practice. A physical or digital journal outside the app works equally well if you prefer it. You also need the ability to measure your own pulse (a fitness band helps but is not required — a finger on the wrist works).
 
 **Prior experience:** None required. No meditation background, no psychology knowledge, no particular fitness level.
 
@@ -208,7 +208,7 @@ This measures interoceptive accuracy — how accurately you can sense your own b
 
 ### Phase 0 Output: Your Entry Record
 
-In your journal, write a dated entry with:
+Write a dated entry — in the app's journal or an external one — with:
 
 1. TAS-20 score (total + three subscale scores) → entry track assignment
 2. Somatic sensation count → note which areas were blank
@@ -311,7 +311,7 @@ The framework spans 9 phases. Here is an honest picture:
 ## Five Things That Determine Whether This Works
 
 **1. The journal is not optional.**
-The journal is the primary mechanism for Track A evidence generation. Skipping entries does not just mean less data — it means some skills (particularly I1.3 Calibration Honesty and B2.4 Identity Stability Monitoring) cannot develop, because these skills depend on longitudinal written record. You cannot hold months of data accurately in working memory. Write the date on every entry. Never delete.
+The journal is the primary mechanism for Track A evidence generation. Skipping entries does not just mean less data — it means some skills (particularly I1.3 Calibration Honesty and B2.4 Identity Stability Monitoring) cannot develop, because these skills depend on longitudinal written record. You cannot hold months of data accurately in working memory. Write the date on every entry. Never delete. The app's built-in journal (text or voice dictation) fulfils this requirement — there is no need to maintain a separate journal if you use it consistently.
 
 **2. The somatic practices are not meditation.**
 The body scan in Phase 1 is a physical signal detection practice, not a relaxation or mindfulness exercise. The goal is accurate sensory reporting, not altered states, calm, or insight. Substituting breath-focused meditation is the most common early error and will stall somatic progress.
@@ -349,7 +349,7 @@ None of these is common. But they are real. A good rule: if practice is consiste
 Before beginning Phase 1:
 
 - [ ] This guide has been read in full
-- [ ] Journal is set up and ready (physical or digital; dated entries from here on)
+- [ ] Journal is set up and ready — either the app's built-in journal or a physical/digital journal of your own; dated entries from here on
 - [ ] Phase 0 assessments are complete (all five, spread over 3–5 days)
 - [ ] Phase 0 output entry is written and dated in journal
 - [ ] Entry track has been determined: Standard / Extended / Somatic-Priority
