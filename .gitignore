@@ -41,3 +41,12 @@ dart-defines.local.json
 
 # ─── Large binary assets (downloaded at runtime, not stored in source) ───────
 assets/models/
+
+# ─── LaTeX build artifacts (from framework docs) ─────────────────────────────
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+debug.txt
