@@ -118,12 +118,26 @@ class SpeechToTextEngine implements TranscriptionEngine {
   }
 
   void _handleSttError(SpeechRecognitionError error) {
+    // These codes mean "nothing heard" — not an engine malfunction.
+    // Emit a final empty chunk so the UI closes cleanly, same as silence.
+    const silenceCodes = {'error_speech_timeout', 'error_no_match'};
+    if (silenceCodes.contains(error.errorMsg)) {
+      _onChunk?.call(
+        const TranscriptChunk(
+          text: '',
+          isFinal: true,
+          engineType: EngineType.speechToText,
+        ),
+      );
+      return;
+    }
+
     if (error.permanent) {
       _onError?.call(
         'SpeechToTextEngine: ${error.errorMsg} (permanent)',
       );
     }
-    // Transient errors (e.g. network timeout on cloud STT) are ignored here;
+    // Transient errors (e.g. network glitch on cloud STT) are ignored;
     // the STT package resumes on its own in most cases.
   }
 }
