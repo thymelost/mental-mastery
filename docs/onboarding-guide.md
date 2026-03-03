@@ -391,6 +391,8 @@ This is not a criticism of any individual. It is a description of how human cogn
 
 Starting with honest Phase 0 data is how that construction begins.
 
+**If you want to go deeper on the evidence:** `research-grounding.md` walks through the 33 studies the framework draws on — what each confirms, what it revises, and where honest uncertainty remains. `scientific-foundation.md` explains the underlying neural and cognitive mechanisms in more detail. Neither is required reading before Phase 0, but both are useful context if you find yourself wanting to know *why* a practice is designed the way it is.
+
 ---
 
 *Framework documents: `skill-taxonomy.md`, `progression-model.md`, `scientific-foundation.md`, `research-grounding.md`, `training-curriculum.md`, `assessment-tools.md`*

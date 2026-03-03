@@ -342,6 +342,8 @@ Count how many are positive-valence, negative-valence, neutral. Extreme imbalanc
 **Duration:** 12 minutes (10 min session + 2 min record)
 **Materials:** Timer, journal, a physical counter or simple tally method during session
 
+> **App integration:** The Practices screen handles B5 automatically. The session timer replaces the physical timer; the large drift button in the centre of the session screen replaces the physical counter — tap it each time your attention leaves the breath. Drift count and session duration are recorded automatically and pre-fill the session log at the end. You still need to manually record the *longest continuous stretch* estimate and *main distraction* in the notes field after the session.
+
 **Procedure:**
 1. Set a timer for exactly 10 minutes.
 2. Sit comfortably. Place attention on the physical sensation of breath at the nostrils or the chest rise/fall.

@@ -1,8 +1,7 @@
 # Mental Mastery — Assessment Tools
 
-**Version:** 0.2
-**Updated:** 2026-03-02 — Added Condition D (physiological arousal) to B8; SART ICV note added to B5; practice compliance added to Master Progress Tracker; Phase 6 gate checklist updated to 4 conditions.
-**Depends on:** `progression-model.md` v0.2, `training-curriculum.md` v0.2
+**Version:** 0.1
+**Depends on:** `progression-model.md` v0.1, `training-curriculum.md` v0.1
 **Purpose:** Provide every measurement instrument, journal template, scoring guide, and phase gate checklist needed to track progress through the framework accurately and independently of self-report alone.
 
 ---
@@ -343,6 +342,8 @@ Count how many are positive-valence, negative-valence, neutral. Extreme imbalanc
 **Duration:** 12 minutes (10 min session + 2 min record)
 **Materials:** Timer, journal, a physical counter or simple tally method during session
 
+> **App integration:** The Practices screen handles B5 automatically. The session timer replaces the physical timer; the large drift button in the centre of the session screen replaces the physical counter — tap it each time your attention leaves the breath. Drift count and session duration are recorded automatically and pre-fill the session log at the end. You still need to manually record the *longest continuous stretch* estimate and *main distraction* in the notes field after the session.
+
 **Procedure:**
 1. Set a timer for exactly 10 minutes.
 2. Sit comfortably. Place attention on the physical sensation of breath at the nostrils or the chest rise/fall.
@@ -366,8 +367,6 @@ Count how many are positive-valence, negative-valence, neutral. Extreme imbalanc
 | 8–10 minutes | High |
 
 **Phase 1 exit threshold:** ≤ 3 drifts and ≥ 10-minute longest stretch, across 5 consecutive sessions within the same week.
-
-> **Research note (SART and ICV):** If using a computerized Sustained Attention to Response Task (SART), intra-individual variability (ICV) in reaction times is a significantly more sensitive indicator of mind-wandering than commission error rates. Commission errors represent only the most disruptive attention failures; ICV captures the subtle fluctuations that precede full lapses. If commissional error counts are the only metric available (as in this self-guided protocol), they will systematically underestimate mind-wandering frequency — particularly in the mild-to-moderate range. Interpret self-reported drift counts as conservative estimates.
 
 **Session log format:**
 
@@ -511,7 +510,7 @@ Compare Part 1 and Part 2 comprehension scores. Review whether the internal stat
 **Duration:** 30 minutes total across 3 conditions (10 min each)
 **Materials:** Journal; access to conditions described below
 
-**The four conditions must be tested on separate occasions (not the same day):**
+**The three conditions must be tested on separate occasions (not the same day):**
 
 **Condition A — Cognitive Load:**
 Administer within 15 minutes of completing a cognitively demanding work task (writing, analysis, complex problem-solving). Do not rest first.
@@ -522,33 +521,27 @@ Administer within 30 minutes of a mild-moderate emotional event (a frustrating i
 **Condition C — Social Context:**
 Administer within 15 minutes of completing a significant social interaction (meeting, conversation, group activity).
 
-**Condition D — Physiological Arousal (required for L2→L3 gate):**
-Administer within 5 minutes of completing brief vigorous exercise (5 minutes brisk walking/stairs/jumping jacks at moderate-to-vigorous intensity) OR within 3 minutes of cold water face immersion (30 seconds). Heart rate should be visibly elevated at time of testing. This condition is mandatory for the L2→L3 gate and must be attempted at least once during Phase 5 as part of the monthly requirement in Practice 5E. Conditions A–C test skills against cognitive and emotional load; Condition D tests against noradrenergic physiological stress, which degrades PFC-dependent monitoring via a mechanism independent of effort and motivation (Raio et al., 2013). Skills that pass A–C but fail D are not available in acute stress situations.
-
 **For each condition, rate the following 6 skills on a 0–10 scale (0 = completely offline, 5 = partially functional, 10 = fully functional):**
 
-| Skill | Rested Baseline | Cond A | Cond B | Cond C | Cond D |
-|---|---|---|---|---|---|
-| A2.1 Meta-Attention | | | | | |
-| A2.2 Dual Presence | | | | | |
-| C2.1 Thought Observation | | | | | |
-| C2.6 Narrative Monitoring | | | | | |
-| B2.1 Self-Other Distinction | | | | | |
-| B2.3 Value Anchoring | | | | | |
-| **Mean** | | | | | |
+| Skill | Rested Baseline | Cond A | Cond B | Cond C |
+|---|---|---|---|---|
+| A2.1 Meta-Attention | | | | |
+| A2.2 Dual Presence | | | | |
+| C2.1 Thought Observation | | | | |
+| C2.6 Narrative Monitoring | | | | |
+| B2.1 Self-Other Distinction | | | | |
+| B2.3 Value Anchoring | | | | |
+| **Mean** | | | | |
 
 **Establish rested baseline first** (same rating scale, in a normal calm state).
 
 **Threshold:**
-- Provisional (Phase 5): mean score across all 6 skills ≥ 80% of rested baseline in ≥ 2 conditions (Condition D attempted but not required to pass at threshold)
-- Full (L2→L3 gate): mean score ≥ 80% of rested baseline in ALL 4 conditions including Condition D
-- Full (Phase 8): ≥ 80% in all 4 conditions sustained across 4 consecutive weeks of ecologically valid conditions
+- Provisional (Phase 5): mean score across all 6 skills ≥ 80% of rested baseline in ≥ 2 conditions
+- Full (L2→L3 gate): mean score ≥ 80% of rested baseline in ALL 3 conditions
+- Full (Phase 8): ≥ 80% in all 3 conditions sustained across 4 consecutive weeks of ecologically valid conditions
 
 **Interpreting 80%:**
 If rested baseline mean = 8.0, threshold under load = 8.0 × 0.80 = 6.4. Any mean below 6.4 in a condition = threshold not met for that condition.
-
-**Physiological Verification and Compliance:**
-Stress induction for Condition D is practitioner-executed — the protocol cannot be confirmed by the app. When a heart rate monitor is connected, the app enforces assessment start behind an HR elevation threshold, providing objective verification that physiological arousal was present at assessment time. When no HR monitor is connected, the app directs the user through the induction procedure but cannot verify compliance; scores in this case reflect protocol adherence rather than confirmed sympathetic activation. These two data classes should be treated separately in any formal evaluation: app-enforced HR-gated Condition D scores are a valid index of stress-transfer capacity; protocol-adherence-only scores are a self-reported proxy. Gate passage for L2→L3 uses the same threshold regardless of HR verification status, but interpretation of borderline results must account for whether physiological stress was objectively confirmed.
 
 ---
 
@@ -692,7 +685,7 @@ Rate each skill 1–5:
 | B2.1 | Self-Other Signal Distinction | | | | Boundary challenge assessment |
 | B2.2 | Incongruence Detection | | | | Values conflict real-time detection |
 | B2.3 | Value Anchoring Under Pressure | | | | Pressure scenario return latency |
-| B2.4 | Self-Attribution Consistency Monitoring | | | | Weekly review log consistency |
+| B2.4 | Identity Stability Monitoring | | | | Weekly review log consistency |
 
 **LAYER 3 — Intentional Plasticity** *(complete at Phase 8 checkpoints only)*
 
@@ -1389,7 +1382,7 @@ Entry track:  □ Standard  □ Extended  □ Somatic-Priority
 
 ```
 □ All L2 Phase 4 and Phase 5 exit criteria confirmed met (no gaps)
-□ I1.1 full: load-condition assessment (B8) ≥ 80% in ALL 4 load condition types including Condition D (physiological arousal)
+□ I1.1 full: load-condition assessment (B8) ≥ 80% in ALL 3 load condition types
 □ I1.3: calibration honesty check (B11) shows no systematic overestimation bias — Phase 6 check complete
 □ B2.4: weekly baseline reviews logged for ≥ 8 consecutive weeks; no undetected drift
 □ A2.2 dual presence: stable in ecologically valid daily activity (not just structured sessions) for ≥ 6 weeks — documented in session logs
@@ -1432,7 +1425,7 @@ Date of gate assessment: ____________
 □ Reframing exercise log: ≥ 1 per week for 8+ consecutive weeks
 □ Topology map: ≥ 10 connected nodes; ≥ 3 update sessions documented
 □ Directed practice cycle: ≥ 1 cycle in progress, ≥ 6 weeks executed, pre/post measures documented
-□ I1.1 full: B8 assessment ≥ 80% across all 4 load types (including physiological arousal), ecologically valid, sustained 4 weeks
+□ I1.1 full: B8 assessment ≥ 80% across 3 load types, ecologically valid, sustained 4 weeks
 □ I1.2 full: recovery within 10 min; ≥ 90% baseline quality; decreasing trend across 12 weeks
 □ I1.3 check (B11): completed; no systematic bias
 □ FFMQ Observing and SMS-Mind: administered; direction of change confirmed
@@ -1493,10 +1486,6 @@ RRS | | | | | | | | | | |
 I1.3 mean gap | | | | | | | | | | |
 I1.1 load quality % | | | | | | | | | | |
 Recovery time (min) | | | | | | | | | | |
-Practice compliance (days/wk avg) | | | | | | | | | | |
-Practice compliance (min/day avg) | | | | | | | | | | |
-
-> **Note on practice compliance as a metric:** Jha et al. (2015–2020) found that actual practice compliance — measured in days/week and minutes/day — is a stronger predictor of stress-resilience outcomes than self-reported engagement quality alone. A practitioner who reports high session quality but is averaging < 3 sessions/week or < 11 min/day is unlikely to show robust Track B protection effects under stress. Record compliance alongside instrument scores; a consistent compliance gap explains stalled Track B progress without requiring a skill attribution.
 
 CALIBRATION HONESTY HISTORY
 

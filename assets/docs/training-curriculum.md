@@ -52,6 +52,8 @@ The practices in Phases 4–8 progressively open access to less-examined aspects
 
 These signs are not common, but they are real. A good baseline rule: if practice is consistently making things worse rather than temporarily challenging, pause and reassess.
 
+In addition to these phase-level signals, practices that involve deliberate emotional or somatic activation include a **Stop or pause if** block in their instructions below. Those criteria are specific to that practice. The phase-level signals above apply at all times.
+
 ---
 
 ## Phase 0 — Entry Assessment
@@ -203,6 +205,11 @@ In your journal, record:
 - Trying to relax instead of observe — relaxation may happen but it's not the goal; observation is
 - Using emotional or interpretive language for sensations — each time you catch this, rephrase
 - Speeding through regions with no sensation — spending equal time on blank regions trains the detection of subtle signals
+
+**Stop or pause if:**
+- You experience flashback-like intrusions during the body scan
+- You notice dissociative episodes that do not resolve quickly after stopping
+- Distress is increasing consistently across sessions rather than plateauing or improving
 
 ---
 
@@ -397,6 +404,10 @@ Each session, work on a single emotion:
 5. At the end of the session, let the emotion settle. Do 2–3 slow breaths and briefly scan back to neutral.
 
 **What you are building:** A personal dictionary that links each emotional state to its specific somatic signature in *your* body. Over weeks, this map becomes a detection system — when you notice a somatic signature, you can read the corresponding emotional state without having to work it out cognitively.
+
+**Stop or pause if:**
+- The memory or image you are using for induction involves traumatic content — use only mildly activating events (4–6/10 intensity)
+- Overwhelm exceeds 7/10 during the session — return to neutral breathing and end early
 
 ---
 
@@ -600,6 +611,9 @@ Modes to recognize:
 - **Unclear** — genuinely unsure
 
 Over weeks, you will notice your habitual distribution. Most people have 2–3 dominant modes that account for the majority of their mental time. This distribution is useful data.
+
+**Stop or pause if:**
+- The thoughts arising during observation cannot be witnessed without significant activation (distress ≥ 7/10) — pause and return to somatic grounding (Practice 1C) before attempting again
 
 ---
 
@@ -938,6 +952,9 @@ Spend 15 minutes consuming a coherent perspective you find somewhat uncomfortabl
 
 **Record after each session:** What shifted? What held? What somatic signals were present?
 
+**Stop or pause if:**
+- The material you are consuming generates what feels like traumatic activation — flashback-like quality, dissociation, or distress that does not resolve within 10 minutes of stopping
+
 ---
 
 #### Practice 5E: Load-Condition Practice
@@ -962,6 +979,9 @@ During the loaded condition, run all six checks in sequence:
 7. **4 min — Log:** Record quality ratios for all six skills (load quality ÷ rested quality, estimated). This is your I1.1 baseline data.
 
 **Record:** All six quality ratios plus load type. Over weeks you will see which skills degrade earliest under which load types.
+
+**Stop or pause if:**
+- The load condition you are in constitutes genuine crisis-level activation rather than mild-to-moderate — this practice is not appropriate for acute crisis states
 
 ---
 
@@ -1001,6 +1021,9 @@ Each evening, review three notable thoughts, impulses, or felt pulls from the da
 
 **Common error to watch:** Confusing values tension with mere preference violation. Values tension involves a genuine conflict with a deeply held value, not just doing something you slightly prefer not to do.
 
+**Stop or pause if:**
+- You cannot reliably distinguish values tension from preference violation during a session — skip detection attempts for that session and review your Values Document instead
+
 ---
 
 #### Practice 5H: Recovery Speed Training
@@ -1022,6 +1045,9 @@ This practice complements the Recovery Time Log (5F) by actively working the rec
 Vividly recall a mildly frustrating or activating event from the past 48 hours. Spend 2 minutes replaying it with full sensory detail until you notice a genuine shift in your internal state. Then immediately apply steps 2–5 above.
 
 > **Source monitoring caution:** The vividness of a recalled memory creates a mild source monitoring hazard — a vivid reconstruction can feel more emotionally current than it actually is, and the emotional response it generates may not accurately represent how you felt in the original event. This practice is specifically for generating physiological activation to train recovery skills. Do not use the emotional response from deliberate induction to draw conclusions about the original event, the people involved, or your current feelings about it. The activation is real; the interpretive content that accompanies it is reconstructed and unreliable.
+
+**Stop or pause if:**
+- The memory selected for deliberate induction exceeds 5/10 activation — use only mildly activating material (3–5/10); this is a recovery training practice, not an exposure practice
 
 **What you're training:** The active recovery sequence (parasympathetic reactivation → PFC re-engagement → monitoring baseline recalibration) as a deliberate skill, not just an emergent process. Over weeks, this sequence should become faster and more reliable.
 
@@ -1231,6 +1257,10 @@ This practice requires an emotional state to work with. Use a recent memory (mil
 
 **Key distinction to maintain:** You are modifying intensity and duration, not eliminating the signal. An emotion modified from 7 to 3 is a successful outcome. An emotion that drops to 0 with the somatic signature gone should be examined — that pattern suggests suppression.
 
+**Stop or pause if:**
+- The memory used for induction is above 5/10 intensity — return to a lower-activation memory
+- After applying a modification technique, the somatic signature disappears entirely — this suggests suppression rather than modification; pause and use somatic grounding instead
+
 ---
 
 #### Practice 7E: Practice Quality Assessment (I1.4)
@@ -1418,6 +1448,9 @@ Each directed practice cycle targets a single, specific pattern change — one n
 5. Define the pre/post measures: how will you know if the pattern has changed? (Frequency counts in Pattern Library? Predictive accuracy shifts? Somatic signature intensity changes?)
 
 **Execute the cycle for ≥ 6 weeks.** After 6 weeks, assess the pre/post measures. Document the results. Then either continue the cycle (if change is partial) or begin a new cycle on a different target.
+
+**Stop or pause if:**
+- The pattern you are targeting has clear connections to traumatic material — do not use this practice for trauma-linked patterns without clinical support
 
 ---
 

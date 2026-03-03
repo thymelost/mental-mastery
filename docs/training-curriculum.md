@@ -52,6 +52,8 @@ The practices in Phases 4–8 progressively open access to less-examined aspects
 
 These signs are not common, but they are real. A good baseline rule: if practice is consistently making things worse rather than temporarily challenging, pause and reassess.
 
+In addition to these phase-level signals, practices that involve deliberate emotional or somatic activation include a **Stop or pause if** block in their instructions below. Those criteria are specific to that practice. The phase-level signals above apply at all times.
+
 ---
 
 ## Phase 0 — Entry Assessment
@@ -90,7 +92,8 @@ Complete all five assessments in order. Do not do them all in a single session �
 
 | Sensation count | Meaning |
 |---|---|
-| 0–3 | Very low somatic baseline — extended Phase 1 |
+| 0–1 | Very low somatic baseline — **somatic-priority track** (anchor protocol; see Phase 1 priority variant below) |
+| 2–3 | Low somatic baseline — extended Phase 1 |
 | 4–8 | Low-moderate baseline — standard Phase 1 |
 | 9–15 | Moderate baseline — standard |
 | 16+ | High baseline — may move through Phase 1 faster |
@@ -104,7 +107,8 @@ Complete all five assessments in order. Do not do them all in a single session �
 
 | Count | Meaning |
 |---|---|
-| < 10 | Low vocabulary — extended Phase 2 |
+| ≤ 5 | Very low vocabulary — **vocabulary-priority track** |
+| 6–9 | Low vocabulary — extended Phase 2 |
 | 10–20 | Moderate baseline — standard |
 | 20–35 | Above average — may move through Phase 2 faster |
 | 35+ | High baseline — you may find Phase 2 relatively easy; watch for I1.3 overconfidence |
@@ -148,7 +152,9 @@ After writing your list, count how many are primarily negative, how many positiv
 #### Phase 0 Output
 
 In your journal, record:
-1. TAS-20 score and track assignment (standard / extended / somatic-priority)
+1. TAS-20 score and track assignment (standard / extended / priority for emotional literacy)
+   Somatic track assignment (standard / extended / somatic-priority)
+   Vocabulary track assignment (standard / extended / vocabulary-priority)
 2. Somatic baseline sensation count
 3. Emotional vocabulary count (and list)
 4. Attention baseline (drift count, longest stretch)
@@ -200,6 +206,11 @@ In your journal, record:
 - Using emotional or interpretive language for sensations — each time you catch this, rephrase
 - Speeding through regions with no sensation — spending equal time on blank regions trains the detection of subtle signals
 
+**Stop or pause if:**
+- You experience flashback-like intrusions during the body scan
+- You notice dissociative episodes that do not resolve quickly after stopping
+- Distress is increasing consistently across sessions rather than plateauing or improving
+
 ---
 
 #### Practice 1B: Sensation Labeling
@@ -214,6 +225,33 @@ In your journal, record:
 4. After 5 minutes, shift to a different body region for the remaining 5 minutes.
 
 **Purpose of this practice vs. body scan:** The body scan moves systematically. This practice develops dwell-time — the ability to sustain attention on a single region long enough for subtle sensations to become perceptible. Many people find that after 60–90 seconds of sustained attention to one region, sensations that were initially absent begin to appear.
+
+---
+
+#### Practice 1A/1B Priority-Track Variant — Anchor Protocol
+*(For somatic-priority track only: baseline sensation count 0–1)*
+
+**Rationale:** When interoceptive resolution is very low, the standard body scan produces mostly silence — there is insufficient internal signal for attention to lock onto. This is not failure; it reflects a starting state where the internal channel has low gain. A deliberate, controllable external sensation acts as a spotlight: it gives attention a stable, high-intensity anchor to lock onto first. Once attention is reliably holding the anchor, you can begin expanding bandwidth toward subtler internal signals.
+
+**What to use as an anchor** (choose one per session, rotate across sessions):
+- **Temperature:** Hold an ice cube in one hand, or run cold water over wrists for 30 seconds before the session. The resulting temperature sensation in the hand/wrist is the anchor.
+- **Pressure:** Press the heel of one hand firmly into the floor. Sustained, steady pressure. The sensation at the contact point is the anchor.
+- **Breath at nostrils:** The physical sensation of air passing through the nostrils — the slight coolness on inhale, warmth on exhale. (Not the chest rise, not the idea of breathing — specifically the nostrils.)
+
+**Modified Practice 1A (first 2–4 weeks on priority track):**
+1. Begin the session by establishing your chosen anchor. If using temperature or pressure, sustain it actively throughout.
+2. Place all your attention on the anchor sensation. Name what you feel using physical terms. Stay on the anchor until you can hold it continuously for 60 seconds with minimal drift.
+3. Once the anchor is stable and clear, attempt to extend attention to the nearest body region — the hand if using ice or pressure, the upper lip if using breath.
+4. If that extension holds for 30 seconds, try one more region adjacent to it.
+5. Stop expanding when sensation becomes absent. Return to the anchor and hold.
+6. Record: anchor used, which regions produced sensation, longest continuous hold without drift.
+
+**Modified Practice 1B (first 2–4 weeks on priority track):**
+- Use the anchor as your starting object rather than choosing a blank body region.
+- After 3 minutes on the anchor, attempt to shift to one adjacent area for the remaining 7 minutes.
+
+**Transition to standard practices:**
+Move to standard Practice 1A/1B when you can reliably detect 2+ sensations without anchor assistance across two consecutive sessions. This typically takes 2–4 weeks.
 
 ---
 
@@ -366,6 +404,10 @@ Each session, work on a single emotion:
 5. At the end of the session, let the emotion settle. Do 2–3 slow breaths and briefly scan back to neutral.
 
 **What you are building:** A personal dictionary that links each emotional state to its specific somatic signature in *your* body. Over weeks, this map becomes a detection system — when you notice a somatic signature, you can read the corresponding emotional state without having to work it out cognitively.
+
+**Stop or pause if:**
+- The memory or image you are using for induction involves traumatic content — use only mildly activating events (4–6/10 intensity)
+- Overwhelm exceeds 7/10 during the session — return to neutral breathing and end early
 
 ---
 
@@ -569,6 +611,9 @@ Modes to recognize:
 - **Unclear** — genuinely unsure
 
 Over weeks, you will notice your habitual distribution. Most people have 2–3 dominant modes that account for the majority of their mental time. This distribution is useful data.
+
+**Stop or pause if:**
+- The thoughts arising during observation cannot be witnessed without significant activation (distress ≥ 7/10) — pause and return to somatic grounding (Practice 1C) before attempting again
 
 ---
 
@@ -907,6 +952,9 @@ Spend 15 minutes consuming a coherent perspective you find somewhat uncomfortabl
 
 **Record after each session:** What shifted? What held? What somatic signals were present?
 
+**Stop or pause if:**
+- The material you are consuming generates what feels like traumatic activation — flashback-like quality, dissociation, or distress that does not resolve within 10 minutes of stopping
+
 ---
 
 #### Practice 5E: Load-Condition Practice
@@ -931,6 +979,9 @@ During the loaded condition, run all six checks in sequence:
 7. **4 min — Log:** Record quality ratios for all six skills (load quality ÷ rested quality, estimated). This is your I1.1 baseline data.
 
 **Record:** All six quality ratios plus load type. Over weeks you will see which skills degrade earliest under which load types.
+
+**Stop or pause if:**
+- The load condition you are in constitutes genuine crisis-level activation rather than mild-to-moderate — this practice is not appropriate for acute crisis states
 
 ---
 
@@ -970,6 +1021,9 @@ Each evening, review three notable thoughts, impulses, or felt pulls from the da
 
 **Common error to watch:** Confusing values tension with mere preference violation. Values tension involves a genuine conflict with a deeply held value, not just doing something you slightly prefer not to do.
 
+**Stop or pause if:**
+- You cannot reliably distinguish values tension from preference violation during a session — skip detection attempts for that session and review your Values Document instead
+
 ---
 
 #### Practice 5H: Recovery Speed Training
@@ -991,6 +1045,9 @@ This practice complements the Recovery Time Log (5F) by actively working the rec
 Vividly recall a mildly frustrating or activating event from the past 48 hours. Spend 2 minutes replaying it with full sensory detail until you notice a genuine shift in your internal state. Then immediately apply steps 2–5 above.
 
 > **Source monitoring caution:** The vividness of a recalled memory creates a mild source monitoring hazard — a vivid reconstruction can feel more emotionally current than it actually is, and the emotional response it generates may not accurately represent how you felt in the original event. This practice is specifically for generating physiological activation to train recovery skills. Do not use the emotional response from deliberate induction to draw conclusions about the original event, the people involved, or your current feelings about it. The activation is real; the interpretive content that accompanies it is reconstructed and unreliable.
+
+**Stop or pause if:**
+- The memory selected for deliberate induction exceeds 5/10 activation — use only mildly activating material (3–5/10); this is a recovery training practice, not an exposure practice
 
 **What you're training:** The active recovery sequence (parasympathetic reactivation → PFC re-engagement → monitoring baseline recalibration) as a deliberate skill, not just an emergent process. Over weeks, this sequence should become faster and more reliable.
 
@@ -1200,6 +1257,10 @@ This practice requires an emotional state to work with. Use a recent memory (mil
 
 **Key distinction to maintain:** You are modifying intensity and duration, not eliminating the signal. An emotion modified from 7 to 3 is a successful outcome. An emotion that drops to 0 with the somatic signature gone should be examined — that pattern suggests suppression.
 
+**Stop or pause if:**
+- The memory used for induction is above 5/10 intensity — return to a lower-activation memory
+- After applying a modification technique, the somatic signature disappears entirely — this suggests suppression rather than modification; pause and use somatic grounding instead
+
 ---
 
 #### Practice 7E: Practice Quality Assessment (I1.4)
@@ -1387,6 +1448,9 @@ Each directed practice cycle targets a single, specific pattern change — one n
 5. Define the pre/post measures: how will you know if the pattern has changed? (Frequency counts in Pattern Library? Predictive accuracy shifts? Somatic signature intensity changes?)
 
 **Execute the cycle for ≥ 6 weeks.** After 6 weeks, assess the pre/post measures. Document the results. Then either continue the cycle (if change is partial) or begin a new cycle on a different target.
+
+**Stop or pause if:**
+- The pattern you are targeting has clear connections to traumatic material — do not use this practice for trauma-linked patterns without clinical support
 
 ---
 
