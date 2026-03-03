@@ -211,11 +211,13 @@ class HrMonitorNotifier extends StateNotifier<HrMonitorState> {
   }
 
   Future<bool> _requestPermissions() async {
+    // Android 12+ (API 31+): BLUETOOTH_SCAN + BLUETOOTH_CONNECT are sufficient.
+    // The manifest declares neverForLocation on BLUETOOTH_SCAN, so location
+    // permission is not required and must not be requested (it triggers the
+    // "determine relative position of nearby devices" dialog).
     final statuses = await [
-      Permission.bluetooth,
       Permission.bluetoothScan,
       Permission.bluetoothConnect,
-      Permission.locationWhenInUse,
     ].request();
     return statuses.values.every(
       (s) => s.isGranted || s.isLimited,
