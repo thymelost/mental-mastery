@@ -1,9 +1,10 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../navigation_key.dart';
 import '../providers.dart';
+import '../../features/dev/dev_test_screen.dart';
 import '../../features/onboarding/onboarding_screen.dart';
 import '../../features/home/home_screen.dart';
 import '../../features/phase_journey/phase_journey_screen.dart';
@@ -158,6 +159,13 @@ final routerProvider = Provider<GoRouter>((ref) {
         path: '/settings',
         builder: (_, __) => const SettingsScreen(),
       ),
+
+      // ── Developer test mode (debug builds only) ───────────────────────
+      if (kDebugMode)
+        GoRoute(
+          path: '/dev-test',
+          builder: (_, __) => const DevTestScreen(),
+        ),
     ],
   );
 });

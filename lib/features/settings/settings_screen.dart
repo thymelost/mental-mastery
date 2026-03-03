@@ -1,5 +1,7 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../core/theme/tokens.dart';
 import '../../services/alarm/alarm_service.dart';
@@ -38,6 +40,21 @@ class SettingsScreen extends ConsumerWidget {
           _SectionHeader(title: 'KNOWN LIMITS OF THIS FRAMEWORK'),
           const _KnownLimitsCard(),
           const SizedBox(height: 40),
+
+          // ── Developer (debug builds only — absent in release APKs) ───────
+          if (kDebugMode) ...[
+            _SectionHeader(title: 'DEVELOPER'),
+            ListTile(
+              contentPadding: const EdgeInsets.symmetric(horizontal: 4),
+              leading: const Icon(Icons.bug_report_outlined, color: errorRed),
+              title: const Text('Test Mode'),
+              subtitle: const Text('Navigate to any practice, assessment, or gate'),
+              trailing:
+                  const Icon(Icons.arrow_forward_ios, size: 14),
+              onTap: () => context.push('/dev-test'),
+            ),
+            const SizedBox(height: 40),
+          ],
         ],
       ),
     );
