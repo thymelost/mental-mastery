@@ -1,0 +1,46 @@
+name: mental_mastery
+description: Mental Mastery training framework app.
+version: 0.1.0+1
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.3.0
+  drift: ^2.20.3
+  sqlite3_flutter_libs: ^0.5.24
+  path_provider: ^2.1.4
+  path: ^1.9.0
+  flutter_markdown: ^0.7.3
+  fl_chart: ^0.68.0
+  speech_to_text: ^7.0.0
+  # Tier 2 — uncomment and verify exact package name on pub.dev before enabling:
+  # google_mlkit_genai_speech_recognition: ^0.1.0
+  flutter_blue_plus: ^1.4.0
+  flutter_local_notifications: ^17.0.0
+  timezone: ^0.9.4
+  permission_handler: ^11.0.0
+  dio: ^5.7.0
+  record: ^5.0.0
+  ffi: ^2.1.3
+
+dependency_overrides:
+  # record_linux 0.7.2 (the version pub resolves) is missing startStream,
+  # which record_platform_interface 1.5.0 requires. Force the fixed version.
+  record_linux: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.13
+  drift_dev: ^2.20.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/docs/

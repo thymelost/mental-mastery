@@ -1,0 +1,43 @@
+# ─── Claude Code agent files ─────────────────────────────────────────────────
+.claude/
+
+# ─── Flutter / Dart ───────────────────────────────────────────────────────────
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+*.g.dart.conflicts
+
+# Generated files — committed for apps (build_runner output is part of source)
+# *.g.dart  ← intentionally NOT ignored
+
+# ─── Android ─────────────────────────────────────────────────────────────────
+android/.gradle/
+android/local.properties
+android/key.properties
+android/*.jks
+
+# CMake / Whisper native build artifacts
+android/app/.cxx/
+android/app/src/main/jniLibs/
+
+# ─── IDE ─────────────────────────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# ─── OS ──────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Secrets / local config ──────────────────────────────────────────────────
+.env
+dart-defines.json
+dart-defines.local.json
+
+# ─── Large binary assets (downloaded at runtime, not stored in source) ───────
+assets/models/
