@@ -146,7 +146,8 @@ class _TranscriptionWidgetState extends ConsumerState<TranscriptionWidget>
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
 
-    return Column(
+    return SingleChildScrollView(
+      child: Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         // ── Transcript area ─────────────────────────────────────────────────
@@ -226,6 +227,7 @@ class _TranscriptionWidgetState extends ConsumerState<TranscriptionWidget>
           isRecording: isRecording,
         ),
       ],
+    ),
     );
   }
 

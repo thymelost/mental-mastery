@@ -61,26 +61,29 @@ class SpeechToTextEngine implements TranscriptionEngine {
 
     final sessionStart = DateTime.now().millisecondsSinceEpoch;
 
-    final started = await _stt.listen(
-      listenOptions: SpeechListenOptions(
-        partialResults: true,
-        cancelOnError: false,
-      ),
-      listenFor: const Duration(minutes: 5),
-      pauseFor: const Duration(seconds: 4),
-      onResult: (SpeechRecognitionResult result) {
-        final conf = result.confidence > 0 ? result.confidence : null;
-        _onChunk?.call(
-          TranscriptChunk(
-            text: result.recognizedWords,
-            isFinal: result.finalResult,
-            confidence: conf,
-            timestampMs: DateTime.now().millisecondsSinceEpoch - sessionStart,
-            engineType: EngineType.speechToText,
+    // listen() is declared Future<bool> but some platform implementations
+    // return null via the method channel; null-coalesce defensively.
+    final started = (await _stt.listen(
+          listenOptions: SpeechListenOptions(
+            partialResults: true,
+            cancelOnError: false,
           ),
-        );
-      },
-    );
+          listenFor: const Duration(minutes: 5),
+          pauseFor: const Duration(seconds: 4),
+          onResult: (SpeechRecognitionResult result) {
+            final conf = result.confidence > 0 ? result.confidence : null;
+            _onChunk?.call(
+              TranscriptChunk(
+                text: result.recognizedWords,
+                isFinal: result.finalResult,
+                confidence: conf,
+                timestampMs: DateTime.now().millisecondsSinceEpoch - sessionStart,
+                engineType: EngineType.speechToText,
+              ),
+            );
+          },
+        )) ??
+        false;
 
     if (!started) {
       onError('SpeechToTextEngine: listen() returned false — '
